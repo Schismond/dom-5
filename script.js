@@ -32,11 +32,9 @@ addTask.addEventListener('click', function(){
 
     checkButton.addEventListener('click',function(){
         li.style.textDecoration = 'line-through'; 
-    })
+    });
 
     deleteButton.addEventListener('click', function(){
         task.style.display = 'none';
-    })
-
-
+    });
 });
